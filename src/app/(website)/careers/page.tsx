@@ -37,7 +37,7 @@ export default function CareersPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-[#49423D] mb-6">Join Our Team</h1>
           <p className="text-xl text-[rgba(73,66,61,0.70)] max-w-3xl mx-auto">
-            Help us build the future of Instagram automation. We're looking for passionate individuals who want to make an impact.
+            Help us build the future of Instagram automation. We&apos;re looking for passionate individuals who want to make an impact.
           </p>
         </div>
 
@@ -96,9 +96,9 @@ export default function CareersPage() {
 
         {/* CTA Section */}
         <div className="mt-20 text-center bg-gradient-to-r from-[#49423D] to-[#37322F] rounded-2xl p-12 text-white">
-          <h2 className="text-3xl font-bold mb-4">Don't See Your Role?</h2>
+          <h2 className="text-3xl font-bold mb-4">Don&apos;t See Your Role?</h2>
           <p className="text-lg mb-6 opacity-90">
-            We're always looking for talented people. Send us your resume and let's talk!
+            We&apos;re always looking for talented people. Send us your resume and let&apos;s talk!
           </p>
           <a href="mailto:careers@echelon.com" className="inline-block bg-white text-[#49423D] px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
             Get in Touch

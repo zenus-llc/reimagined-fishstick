@@ -9,7 +9,7 @@ export default function TermsPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-[#49423D] mb-4">1. Acceptance of Terms</h2>
             <p className="text-[rgba(73,66,61,0.80)] mb-4">
-              By accessing and using Echelon's services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+              By accessing and using Echelon&apos;s services, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
             </p>
           </section>
 
@@ -21,7 +21,7 @@ export default function TermsPage() {
             <ul className="list-disc pl-6 space-y-2 text-[rgba(73,66,61,0.80)] mb-4">
               <li>Modify or copy the materials</li>
               <li>Use the materials for any commercial purpose without proper authorization</li>
-              <li>Attempt to reverse engineer any software contained on Echelon's platform</li>
+              <li>Attempt to reverse engineer any software contained on Echelon&apos;s platform</li>
               <li>Remove any copyright or other proprietary notations from the materials</li>
             </ul>
           </section>
@@ -61,7 +61,7 @@ export default function TermsPage() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold text-[#49423D] mb-4">6. Limitation of Liability</h2>
             <p className="text-[rgba(73,66,61,0.80)] mb-4">
-              In no event shall Echelon or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use Echelon's services.
+              In no event shall Echelon or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use Echelon&apos;s services.
             </p>
           </section>
 

@@ -95,9 +95,9 @@ export default function BrandPage() {
               </ul>
             </div>
             <div className="border-l-4 border-red-500 pl-6 py-4">
-              <h3 className="text-xl font-semibold text-red-600 mb-2">✗ Don't</h3>
+              <h3 className="text-xl font-semibold text-red-600 mb-2">✗ Don&apos;t</h3>
               <ul className="space-y-2 text-[rgba(73,66,61,0.80)]">
-                <li>• Distort or modify the logo</li>
+                <li>• Don&apos;t distort or modify the logo</li>
                 <li>• Use unauthorized colors or variations</li>
                 <li>• Place logo on busy or low-contrast backgrounds</li>
                 <li>• Recreate or redraw brand elements</li>

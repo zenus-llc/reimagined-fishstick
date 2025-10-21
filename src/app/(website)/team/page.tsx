@@ -45,7 +45,7 @@ export default function TeamPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-[#49423D] mb-6">Meet Our Team</h1>
           <p className="text-xl text-[rgba(73,66,61,0.70)] max-w-3xl mx-auto">
-            We're a diverse group of developers, designers, and dreamers united by our passion for creating exceptional automation experiences.
+            We&apos;re a diverse group of developers, designers, and dreamers united by our passion for creating exceptional automation experiences.
           </p>
         </div>
 
@@ -65,7 +65,7 @@ export default function TeamPage() {
         <div className="bg-gradient-to-r from-[#49423D] to-[#37322F] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl font-bold mb-4">Want to Join Us?</h2>
           <p className="text-lg mb-6 opacity-90">
-            We're always looking for talented individuals who share our passion for automation and innovation.
+            We&apos;re always looking for talented individuals who share our passion for automation and innovation.
           </p>
           <a href="/careers" className="inline-block bg-white text-[#49423D] px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-all">
             View Open Positions

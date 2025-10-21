@@ -28,7 +28,7 @@ export default function SupportPage() {
           <div className="bg-[#F5F3F0] rounded-2xl p-8 text-center">
             <div className="text-5xl mb-4">📧</div>
             <h3 className="text-xl font-bold text-[#49423D] mb-3">Email Support</h3>
-            <p className="text-[rgba(73,66,61,0.80)] mb-6">Send us an email and we'll respond within 24 hours</p>
+            <p className="text-[rgba(73,66,61,0.80)] mb-6">Send us an email and we&apos;ll respond within 24 hours</p>
             <a href="/contact" className="text-[#49423D] font-semibold hover:underline">Contact Us →</a>
           </div>
         </div>

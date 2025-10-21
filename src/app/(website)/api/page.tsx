@@ -5,7 +5,7 @@ export default function APIPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-[#49423D] mb-6">API Reference</h1>
           <p className="text-xl text-[rgba(73,66,61,0.70)] max-w-3xl mx-auto">
-            Build powerful integrations with Echelon's RESTful API. Automate Instagram engagement programmatically.
+            Build powerful integrations with Echelon&apos;s RESTful API. Automate Instagram engagement programmatically.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ export default function AboutPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-[#49423D] mb-6">About Echelon</h1>
           <p className="text-xl text-[rgba(73,66,61,0.70)] max-w-3xl mx-auto">
-            We're on a mission to automate DMs and comments on Instagram, empowering businesses to engage with their audience effortlessly.
+            We&apos;re on a mission to automate DMs and comments on Instagram, empowering businesses to engage with their audience effortlessly.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function AboutPage() {
               <div className="text-4xl mb-4">⚡</div>
               <h3 className="text-xl font-semibold text-[#49423D] mb-3">Excellence</h3>
               <p className="text-[rgba(73,66,61,0.70)]">
-                We're committed to delivering the highest quality products and experiences to our users.
+                We&apos;re committed to delivering the highest quality products and experiences to our users.
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function AboutPage() {
             Founded by a team of marketing and automation experts, Echelon was born from a simple idea: Instagram engagement should be automated, efficient, and effective.
           </p>
           <p className="text-lg text-[rgba(73,66,61,0.80)] mb-4">
-            We've grown from a small startup to a platform trusted by thousands of businesses worldwide, but our core mission remains the same.
+            We&apos;ve grown from a small startup to a platform trusted by thousands of businesses worldwide, but our core mission remains the same.
           </p>
           <p className="text-lg text-[rgba(73,66,61,0.80)]">
             Today, we continue to innovate and evolve, always keeping our users at the heart of everything we do.
