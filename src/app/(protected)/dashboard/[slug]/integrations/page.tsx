@@ -2,6 +2,10 @@ import { INTEGRATION_CARDS } from '@/constants/integrations'
 import React from 'react'
 import IntegrationCard from './_components/integration-card'
 
+// Force dynamic rendering to prevent caching
+export const dynamic = 'force-dynamic'
+export const revalidate = 0
+
 type Props = {}
 
 const Page = (props: Props) => {

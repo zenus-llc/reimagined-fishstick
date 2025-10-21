@@ -3,7 +3,7 @@ import { onOAuthInstagram } from '@/actions/integrations'
 import { onUserInfo } from '@/actions/user'
 import { Button } from '@/components/ui/button'
 import { useQuery } from '@tanstack/react-query'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 type Props = {
   title: string
@@ -16,10 +16,15 @@ const IntegrationCard = ({ description, icon, strategy, title }: Props) => {
 
   const onInstaOAuth = () => onOAuthInstagram(strategy)
 
-  const { data } = useQuery({
+  const { data, refetch } = useQuery({
     queryKey: ['user-profile'],
     queryFn: onUserInfo,
   })
+
+  // Refetch on mount to ensure fresh data after OAuth redirect
+  useEffect(() => {
+    refetch()
+  }, [refetch])
 
   const integrated = data?.data?.integrations.find(
     (integration) => integration.name === strategy
