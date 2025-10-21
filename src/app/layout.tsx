@@ -12,6 +12,10 @@ const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Echelon',
   description: 'Automate DMs and comments on instagram',
+  icons: {
+    icon: '/vercel.svg',
+    apple: '/vercel.svg',
+  },
 }
 
 export default function RootLayout({
