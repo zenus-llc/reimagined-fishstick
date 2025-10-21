@@ -5,13 +5,15 @@ import { client } from '@/lib/prisma'
 export const updateIntegration = async (
   token: string,
   expire: Date,
-  id: string
+  id: string,
+  igId?: string
 ) => {
   return await client.integrations.update({
     where: { id },
     data: {
       token,
       expiresAt: expire,
+      ...(igId && { instagramId: igId }),
     },
   })
 }
@@ -44,6 +46,7 @@ export const createIntegration = async (
     data: {
       integrations: {
         create: {
+          name: 'INSTAGRAM',
           token,
           expiresAt: expire,
           instagramId: igId,

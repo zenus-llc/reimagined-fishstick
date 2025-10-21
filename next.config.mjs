@@ -7,7 +7,9 @@ const nextConfig = {
         hostname:"scontent.cdninstagram.com"
       },
     ],
+    domains: ["scontent.cdninstagram.com"],
   },
+  
 }
 
 export default nextConfig
